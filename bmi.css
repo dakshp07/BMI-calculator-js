@@ -1,0 +1,36 @@
+*{
+    background-color: white;
+    font-family: 'Poppins';
+    color:#001AFF;
+    margin: 0px;
+}
+.box{
+    background-color: #001AFF;
+    color: white;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border:10px solid transparent;
+    border-radius: 20px;
+}
+.heading,.copyright{
+    background-color: #001AFF;
+    color: white;
+    margin: 3px;
+}
+.wt,.ht,.BMI,.mean{
+    border: 5px solid transparent;
+    border-radius: 5px;
+}
+.submit,.clear{
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.submit:hover,.clear:hover{
+    background-color:#001AFF;
+    color: white;
+    transition: 0.3s ease-in-out;
+    border: 1px solid white;
+}
